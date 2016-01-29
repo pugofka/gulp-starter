@@ -30,7 +30,7 @@ var path = {
         spritesCss: 'src/css/partial/'
     },
     src: { //Пути откуда брать исходники
-        html: 'src/template/*.html', //Синтаксис src/template/*.html говорит gulp что мы хотим взять все файлы с расширением .html
+        html: 'src/*.html', //Синтаксис src/template/*.html говорит gulp что мы хотим взять все файлы с расширением .html
         js: 'src/js/[^_]*.js',//В стилях и скриптах нам понадобятся только main файлы
         jshint: 'src/js/*.js',
         css: 'src/css/styles.styl',
@@ -42,7 +42,7 @@ var path = {
         htaccess: 'src/.htaccess'
     },
     watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
-        html: 'src/template/**/*.html',
+        html: 'src/*.html',
         js: 'src/js/**/*.js',
         css: 'src/css/**/*.*',
         img: 'src/css/images/**/*.*',

@@ -144,7 +144,7 @@ gulp.task('cssOwn:build', function () {
             'include css': true
         })) //Скомпилируем stylus
         .pipe(prefixer({
-            browser: ['last 3 version', "> 1%", "ie 8", "ie 7"]
+            browsers: ['last 3 version', "> 1%", "ie 8", "ie 7"]
         })) //Добавим вендорные префиксы
         .pipe(cssmin()) //Сожмем
         .pipe(sourcemaps.write()) //пропишем sourcemap

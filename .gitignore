@@ -1,3 +1,7 @@
 /node_modules/
 /buid/
 /resource/
+.idea/
+*.iml
+*.swp
+build/
